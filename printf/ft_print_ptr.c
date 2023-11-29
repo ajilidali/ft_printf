@@ -6,7 +6,7 @@
 /*   By: moajili <moajili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/10 13:20:43 by ajordan-          #+#    #+#             */
-/*   Updated: 2023/11/16 14:03:14 by moajili          ###   ########.fr       */
+/*   Updated: 2023/11/29 17:33:22 by moajili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,10 +46,7 @@ int	ft_print_ptr(unsigned long long ptr)
 	int	len;
 
 	if (!ptr)
-	{
-		ft_putstr("(nil)");
-		return (5);
-	}
+		return ft_putstr("0x0");	
 	len = 0;
 	len += write(1, "0x", 2);
 	if (ptr == 0)

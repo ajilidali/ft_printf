@@ -6,7 +6,7 @@
 /*   By: moajili <moajili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 12:00:00 by ajordan-          #+#    #+#             */
-/*   Updated: 2023/11/29 16:48:06 by moajili          ###   ########.fr       */
+/*   Updated: 2023/11/29 17:44:17 by moajili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int		ft_putnbr(int n);
 int		ft_uprint(unsigned int n);
 int		ft_print_hex(unsigned int num, const char format);
 int		ft_percent(void);
-int	    ft_putstr( char *str);
+int		ft_putstr( char *str);
 void	ft_put_ptr(uintptr_t num);
 int		ft_ptr_len(uintptr_t num);
 char	*ft_uitoa(unsigned int n);
