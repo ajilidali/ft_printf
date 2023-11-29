@@ -46,7 +46,7 @@ int	ft_print_ptr(unsigned long long ptr)
 	int	len;
 
 	if (!ptr)
-		return ft_putstr("0x0");	
+		return (ft_putstr("0x0"));
 	len = 0;
 	len += write(1, "0x", 2);
 	if (ptr == 0)
