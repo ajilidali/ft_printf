@@ -6,7 +6,7 @@
 /*   By: moajili <moajili@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/07 13:40:58 by ajordan-          #+#    #+#             */
-/*   Updated: 2023/11/29 16:20:54 by moajili          ###   ########.fr       */
+/*   Updated: 2023/12/06 12:47:58 by moajili          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,5 @@ int	ft_putnbr(int n)
 
 int	ft_percent(void)
 {
-	write(1, "%", 1);
-	return (1);
+	return write(1, "%", 1);
 }
